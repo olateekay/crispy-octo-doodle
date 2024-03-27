@@ -23,7 +23,7 @@ Additionally, you need to create an AWS IAM role for the microservices to use.
 
 ## Implementation
 
-![ToDo Service](image.png)
+![ToDo Service](https://github.com/olateekay/crispy-octo-doodle/blob/main/Images/image.png?raw=true)
 
 Implementing a monitoring and visibility solution for a set of microservices, particularly those running as AWS Lambda functions, involves a series of steps.
 Below is an outlined comprehensive approach to achieve this.
@@ -40,14 +40,14 @@ Below is an outlined comprehensive approach to achieve this.
     - Filter by Function Name to view specific data
 
 
-![Lambda metrics](metrics.png)
+![Lambda metrics](https://github.com/olateekay/crispy-octo-doodle/blob/main/Images/metrics.png?raw=true)
 
 3. **Access Logs**
    - In the AWS Management Console, go to the CloudWatch service.
    - Navigate to "Logs" in the sidebar.
    - Find the log group named /aws/lambda/<your-function-name> to access logs for  each specific Lambda function
 
-![Lambda logs](logs.png)
+![Lambda logs](https://github.com/olateekay/crispy-octo-doodle/blob/main/Images/logs.png?raw=true)
 
 4 **Set Up Grafana for Monitoring**
 
