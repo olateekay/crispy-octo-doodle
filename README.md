@@ -78,6 +78,10 @@ Grafana supports cloudwatch as a data source, allowing us to visualize the Lambd
 - Once that is done, select save and test
 
 
+Here  is the link to the Grafana dashboard showing metrics and logs from the microservices.
+Screen shots of the dashboards can also be found in the Grafana dashboards folder
+
+http://13.38.245.145:3000/d/fdgxqie1vfp4we/lamda-functions-dashboard?orgId=1&from=1711380220316&to=1711553020316
 
 
 
